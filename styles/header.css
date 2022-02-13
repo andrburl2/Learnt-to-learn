@@ -26,8 +26,12 @@
   text-align: center;
 }
 
-.header__link {
+.header__button {
   margin: 0 0 30px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
 }
 
 .header__row {
