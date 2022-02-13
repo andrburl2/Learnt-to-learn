@@ -1,0 +1,106 @@
+.khan {
+  padding: 40px 20px 0;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  align-items: center;
+}
+
+.khan__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.khan__title {
+  margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.khan__subtitle {
+  margin: 0 0 30px;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.khan__blockquote {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 0 0 20px;
+  margin: 0 0 50px;
+  box-sizing: border-box;
+  border-left: 5px solid #aaa;
+  display: flex;
+  flex-direction: column;
+}
+
+.khan__quote {
+  width: 100%;
+  margin: 0 0 20px;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.khan__quote-author {
+  margin: 0 50px 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.khan__quote-text {
+  margin: 0 0 10px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.khan__quote-text:last-of-type {
+  margin: 0;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.khan__image {
+  max-width: 400px;
+  width: 100%;
+  height: 400px;
+  margin: 0 30px 0 0;
+  object-fit: cover;
+  object-position: top left;
+}
+
+@media screen and (max-width: 768px) {
+  .khan__title {
+    font-size: 30px;
+  }
+  
+  .khan__subtitle {
+    font-size: 20px;
+  }
+
+  .khan__quote {
+    font-size: 16px;
+  }
+
+  .khan__quote-text {
+    font-size: 20px;
+  }
+
+  .khan__book-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .khan__image {
+    margin: 0;
+  }
+
+  .khan__link {
+    margin: 0 0 20px;
+    font-size: 20px;
+  }
+}

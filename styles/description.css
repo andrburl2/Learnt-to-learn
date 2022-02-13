@@ -1,0 +1,49 @@
+.description_background_grey {
+  padding: 80px 20px 40px;
+  background-color: #f2f2f2;
+}
+
+.description__title {
+  max-width: 230px;
+  width: 100%;
+  margin: 0 30px 0 0;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1;
+  color: #2f80ed;
+}
+
+.description__text-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__text {
+  margin: 0 0 30px;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.description__text:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    flex-direction: column;
+  }
+
+  .description__title {
+    max-width: none;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+
+  .description__text {
+    margin: 0 0 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
